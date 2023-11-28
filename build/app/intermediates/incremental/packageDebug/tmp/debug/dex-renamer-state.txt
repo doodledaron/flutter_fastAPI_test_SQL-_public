@@ -1,0 +1,4 @@
+#Mon Nov 27 18:32:56 MYT 2023
+base.0=C\:\\self learning\\flutter\\flutter demo projects\\flutter_fastAPI_test_SQL\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

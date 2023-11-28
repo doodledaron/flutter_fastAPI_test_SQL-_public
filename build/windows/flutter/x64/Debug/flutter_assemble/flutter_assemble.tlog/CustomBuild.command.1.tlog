@@ -1,0 +1,28 @@
+^C:\SELF LEARNING\FLUTTER\FLUTTER DEMO PROJECTS\FLUTTER_FASTAPI_TEST\BUILD\WINDOWS\CMAKEFILES\2C9EB61F428427C5C84BAD47F1663C7E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Acer\Documents\flutterDev\flutter "PROJECT_DIR=C:\self learning\flutter\flutter demo projects\flutter_fastAPI_test" FLUTTER_ROOT=C:\Users\Acer\Documents\flutterDev\flutter "FLUTTER_EPHEMERAL_DIR=C:\self learning\flutter\flutter demo projects\flutter_fastAPI_test\windows\flutter\ephemeral" "PROJECT_DIR=C:\self learning\flutter\flutter demo projects\flutter_fastAPI_test" "FLUTTER_TARGET=C:\self learning\flutter\flutter demo projects\flutter_fastAPI_test\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9iZDk4NmM1ZWQyMGE2MmRjMzRiNzcxOGM1MGFiYzc4MmJlYWU0YzMzLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\self learning\flutter\flutter demo projects\flutter_fastAPI_test\.dart_tool\package_config.json" C:/Users/Acer/Documents/flutterDev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SELF LEARNING\FLUTTER\FLUTTER DEMO PROJECTS\FLUTTER_FASTAPI_TEST\BUILD\WINDOWS\CMAKEFILES\741F232E15B5ACC3E86212EC74EBFDB1\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SELF LEARNING\FLUTTER\FLUTTER DEMO PROJECTS\FLUTTER_FASTAPI_TEST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/self learning/flutter/flutter demo projects/flutter_fastAPI_test/windows" "-BC:/self learning/flutter/flutter demo projects/flutter_fastAPI_test/build/windows" --check-stamp-file "C:/self learning/flutter/flutter demo projects/flutter_fastAPI_test/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
