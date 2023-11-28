@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:project/models/person.dart';
 
-const String ipAddress = 'http://192.168.100.3:8000';
+const String ipAddress = 'http://localhost:8000';
 
 class HomeService {
   Future<List<Person>> getPeople(BuildContext context) async {
